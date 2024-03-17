@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/*Configurações padrão*/
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+body {
+
+    height: 400vh;
+
+
+
+}
+
+/*Fontes >>> */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/*Container main >>>*/
+
+.container {
+
+    max-width: 1300px;
+    margin: auto;
+ 
+
+}
+
+
+/*Definição de cores - css */
+
+:root {
+
+    --roxo: #820CF4;
+    --roxo-escuro: #281D33;
+    --cinza:  #8B7E96;
+
+}
+
+/*Header >>> */
+header nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+
+    display: flex;
+    
+
+}
+
+header nav ul li {
+
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+
+}
+
+
+
+.pai-h1 {
+
+    max-width: 400px;
+    margin-top: 20vh;
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    font-weight: 100;
+
+}
+
+.sub-contents {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+
+
+#p-main {
+
+    max-width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+
+}
+
+#h1-01{
+    color: #8B7E96;
+}
+
+#h1-02 {
+
+    color: #820CF4;
+
+}
+
+#h1-03{
+
+    color: #8B7E96;
+
+}
+
+#pai-buttom {
+
+    margin-top: 30px;
+
+}
+
+#pai-buttom button {
+
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: var(--roxo);
+    
+
+
+}
+
+
